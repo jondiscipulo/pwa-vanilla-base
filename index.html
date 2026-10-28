@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PWA Meta Tags -->
+    <title>My PWA</title>
+    <meta name="description" content="A simple, no-build Progressive Web App tutorial.">
+    <meta name="theme-color" content="#4a90e2">
+
+    <!-- iOS Meta Tags (iOS doesn't fully support manifest.json yet) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="My PWA">
+    <link rel="apple-touch-icon" href="icons/icon-192.svg">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My PWA</h1>
+        <div id="network-status" class="status-online">Online</div>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Welcome!</h2>
+            <p>
+                This is a basic Progressive Web App. It works offline, can be installed on your device, and requires no build tools.
+                Turn off your internet connection and refresh the page.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Install This App</h2>
+            <p>On desktop, look for the "Install" icon in the address bar. On mobile, use the browser menu and select "Add to Home Screen".</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My PWA</p>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js" defer></script>
+</body>
+</html>
