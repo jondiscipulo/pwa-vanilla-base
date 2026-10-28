@@ -1,8 +1,12 @@
-# PWA Tutorial — Project Summary
+# PWA Base - Vanilla
 
 This is a no-build, progressive web app that demonstrates basic PWA capabilities:
-offline caching via a Service Worker, a standalone installable display, and
-an online/offline status indicator.
+
+- offline caching via a Service Worker
+- a standalone installable display
+- an online/offline status indicator
+
+This is a PWA base with minimum requirements created with vanilla HTML, CSS and JS.
 
 ## Minimum requirements for a PWA
 
